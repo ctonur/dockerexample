@@ -30,6 +30,8 @@ cd my-docker-app
 ### Step 2: Build the Docker Image
 Build the image using the Dockerfile:
 ```bash
+docker buildx build -t test -f Dockerfile 
+or
 docker build -t my-python-app .
 ```
 
